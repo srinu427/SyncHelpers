@@ -1,5 +1,6 @@
 #include "thread_pool.hpp"
 #include <chrono>
+#include <memory>
 
 namespace s427{
   ThreadPool::ThreadPool(uint32_t thread_count){
